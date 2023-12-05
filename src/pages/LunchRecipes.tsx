@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 
-function DessertRecipes() {
+function LunchRecipes() {
   return (
     <>
       {" "}
@@ -11,26 +11,29 @@ function DessertRecipes() {
       <hr />
       <table>
         <tr>
-          <th className="paragraph"> Dessert Recipes</th>{" "}
+          <th className="paragraph"> Lunch Recipes</th>{" "}
         </tr>
         <tr>
           <td>
             <Link
               style={{ color: "black", fontSize: 50 }}
               className="link"
-              to="/20mincookies"
+              to="/fantasticcaesarsalad"
             >
-              <img src="https://thefoodcharlatan.com/wp-content/uploads/2018/09/30-Minute-Chewy-Chocolate-Chip-Cookies-e1538077153509.jpg" />
+              <img
+                style={{ height: "800px" }}
+                src="https://www.spendwithpennies.com/wp-content/uploads/2020/07/Caesar-Salad-SpendWithPennies-5-700x1050.jpg"
+              />
             </Link>
             <br />
             <Link
               style={{ color: "black", fontSize: 50 }}
               className="link"
-              to="/20mincookies"
+              to="/fantasticcaesarsalad"
             >
-              20 Minute Cookies
+              Fantastic Caesar Salad
             </Link>
-            <div>⭐⭐⭐⭐⭐ 14</div>
+            <div>⭐⭐⭐⭐ 23</div>
           </td>
         </tr>
       </table>
@@ -38,5 +41,4 @@ function DessertRecipes() {
     </>
   );
 }
-
-export default DessertRecipes;
+export default LunchRecipes;

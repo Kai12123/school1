@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 
-function DessertRecipes() {
+function BreakfastRecipes() {
   return (
     <>
       {" "}
@@ -11,26 +11,29 @@ function DessertRecipes() {
       <hr />
       <table>
         <tr>
-          <th className="paragraph"> Dessert Recipes</th>{" "}
+          <th className="paragraph">Breakfast Recipes</th>{" "}
         </tr>
         <tr>
           <td>
             <Link
               style={{ color: "black", fontSize: 50 }}
               className="link"
-              to="/20mincookies"
+              to="/classicomelette"
             >
-              <img src="https://thefoodcharlatan.com/wp-content/uploads/2018/09/30-Minute-Chewy-Chocolate-Chip-Cookies-e1538077153509.jpg" />
+              <img
+                style={{ height: "800px" }}
+                src="https://natashaskitchen.com/wp-content/uploads/2022/02/Egg-Omelette-7-728x1091.jpg"
+              />
             </Link>
             <br />
             <Link
               style={{ color: "black", fontSize: 50 }}
               className="link"
-              to="/20mincookies"
+              to="/classicomelette"
             >
-              20 Minute Cookies
+              Classic Omelette
             </Link>
-            <div>⭐⭐⭐⭐⭐ 14</div>
+            <div>⭐⭐⭐⭐ 11</div>
           </td>
         </tr>
       </table>
@@ -38,5 +41,4 @@ function DessertRecipes() {
     </>
   );
 }
-
-export default DessertRecipes;
+export default BreakfastRecipes;

@@ -17,6 +17,7 @@ div {
   align-items: "center";
   font-size: 150px;
   background-color: darkgray;
+  border: 5px solid black;
 }
 
 .recipesubtitle {
@@ -41,11 +42,12 @@ div {
   padding-right: 10px;
   font-size: 30px;
   color: white;
-
+  
 }
 .subtitle {
   font-size: 80px;
   background-color: gray;
+  border: 3px solid black;
 }
 
 .checkbox {
@@ -85,3 +87,21 @@ th {
 td {
   border: 3px solid black;
 }
+
+.lettuce {
+width: 300px;
+}
+
+.footer {
+  background-color: tomato;
+  border: 3px solid rgb(226, 51, 51);
+
+}
+.footertext {
+  color: whitesmoke;
+}
+body {
+  background-color: gainsboro;
+}
+
+.bottomtr{ width: 50px; }

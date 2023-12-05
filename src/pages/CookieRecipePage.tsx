@@ -1,16 +1,17 @@
 import { Checkbox } from "@mui/material";
 import Navbar from "../Navbar";
+import Footer from "../Footer";
 function CookieRecipePage() {
   return (
     <>
       <Navbar />
 
-      <div className="title">Sigma Male Recipes</div>
+      <div className="title">The Recipe Collection</div>
 
       <hr />
       <div className="subtitle">20 Minute Cookies</div>
       <hr />
-      <img src="https://www.ihearteating.com/wp-content/uploads/2016/08/easiest-chocolate-chip-cookies.jpg" />
+      <img src="https://thefoodcharlatan.com/wp-content/uploads/2018/09/30-Minute-Chewy-Chocolate-Chip-Cookies-e1538077153509.jpg" />
       <hr />
       <div className="bigrecipecontainer">
         <div className="recipecontainer">
@@ -104,6 +105,7 @@ function CookieRecipePage() {
           src="https://www.ihearteating.com/wp-content/uploads/2016/08/Easiest-Chocolate-Chip-Cookies-800-2.jpg"
         />
       </div>
+      <Footer />
     </>
   );
 }

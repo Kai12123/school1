@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="navbar">
-      Portals
+      Portal
       <br />
       <Link className="link" to="/home">
         Home
@@ -13,12 +13,20 @@ function Navbar() {
         About
       </Link>
       <br />
-      <Link className="link" to="/20mincookies">
-        20 Minute Cookies
+      <Link className="link" to="/dessertrecipes">
+        Dessert Recipes
       </Link>
       <br />
-      <Link className="link" to="/fantasticcaesarsalad">
-        Fantastic Caesar Salad
+      <Link className="link" to="/dinnerrecipes">
+        Dinner Recipes
+      </Link>
+      <br />
+      <Link className="link" to="/lunchrecipes">
+        Lunch Recipes
+      </Link>
+      <br />
+      <Link className="link" to="/breakfastrecipes">
+        Breakfast Recipes
       </Link>
     </div>
   );
